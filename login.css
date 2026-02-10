@@ -104,6 +104,7 @@ a{
   position: absolute;
   top: 600px;
   left: 490px;
+  font-size: 12px;
 }
 
 @media screen and (max-width:480px) {
@@ -122,5 +123,10 @@ a{
 
   .login-container p{
     font-size: 14px;
+  }
+
+  .return{
+    top: 575px;
+    left: 275px;
   }
 }

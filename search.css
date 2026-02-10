@@ -293,6 +293,7 @@ footer {
  .left img {
     width: auto;
     height: 45px;
+    margin-top:5px;
     margin-left: 10px;
     object-fit: contain;
 }
@@ -358,5 +359,6 @@ footer {
     height: 75px;
   }
 }
+
 
 

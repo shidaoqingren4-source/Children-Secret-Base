@@ -22,11 +22,7 @@ body {
   width: 300px;
 }
 
-form{
-  width:100%;
-}
-
-.explain {
+p {
   margin: 0;
   white-space: nowrap;
   font-size: 17px;
@@ -46,7 +42,7 @@ h1 {
 label {
   display: block;
   margin-bottom: 5px;
-  color: #555;
+  color: #000000;
   font-size: 15px;
 }
 
@@ -83,11 +79,7 @@ label {
   user-select: none;
 }
 
-.forget{
-  font-size:12px;
-}
-
-.yet{
+a{
   font-size: 12px;
 }
 
@@ -114,7 +106,21 @@ label {
   left: 490px;
 }
 
+@media screen and (max-width:480px) {
+  
+  .login-container{
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
 
+  .login-container h1{
+    font-size: 25px;
+  }
 
-
-
+  .login-container p{
+    font-size: 14px;
+  }
+}

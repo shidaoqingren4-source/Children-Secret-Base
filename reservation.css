@@ -397,7 +397,7 @@ footer {
 
   .facility-details {
     width: 100%;
-    margin: 15px 0 0;
+    margin: 5px 0 0;
     text-align: left;
     box-sizing: border-box;
   }
@@ -409,7 +409,7 @@ footer {
 
   .facility-details strong {
     font-size: 17px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     display: block;
     text-align: center;
   }
@@ -495,4 +495,5 @@ footer {
     height: 75px;
   }
 }
+
 

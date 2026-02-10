@@ -9,10 +9,14 @@ body {
 }
 
 .signup-container {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0 80px;
   padding-top: 20px;
   padding-bottom: 40px;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   width: 300px;
@@ -80,4 +84,36 @@ p{
 
 .already{
   font-size: 12px;
+}
+
+.return{
+  position: absolute;
+  top: 600px;
+  left: 490px;
+  font-size: 12px;
+}
+
+
+@media screen and (max-width:480px) {
+  
+  .signup-container{
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .signup-container h1{
+    font-size: 25px;
+  }
+
+  .signup-container p{
+    font-size: 14px;
+  }
+
+  .return{
+    top: 575px;
+    left: 275px;
+  }
 }

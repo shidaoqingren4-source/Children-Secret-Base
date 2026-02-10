@@ -293,7 +293,6 @@ footer {
  .left img {
     width: auto;
     height: 45px;
-    margin-top:5px;
     margin-left: 10px;
     object-fit: contain;
 }
@@ -314,12 +313,16 @@ footer {
     top: 55px;
   }
 
+  h1{
+    font-size: 25px;
+  }
+
   .search-box{
     width: calc(100% - 15px);
   }
 
   input,.search-box,.search-box button{
-    height: 40px;
+    height: 45px;
   }
 
   .results{
@@ -352,6 +355,16 @@ footer {
     margin-bottom: 10px;
     text-align: center;
     font-size: 17px;
+  }
+
+  .filter-row label{
+    font-size: 15px;
+  }
+
+  .filter-row select{
+    height: 35px;
+    padding: 5px;
+    margin-right: 5px;
   }
 
   .wave-container{

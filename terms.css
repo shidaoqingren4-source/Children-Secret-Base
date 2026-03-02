@@ -116,6 +116,10 @@ header{
     height: 150px;
 }
 
+terms{
+    padding:0px 20px;
+}
+
 
 footer {
     height: 300px;

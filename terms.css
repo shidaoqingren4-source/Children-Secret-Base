@@ -1,15 +1,6 @@
 body{
     margin: 0;
-}
-
-main{
-    background-color: #FFF8E7;
-    padding-top: 65px;
-    padding-bottom: 20px;
-}
-
-.terms{
-    padding-left: 150px;
+    overflow-x: hidden;
 }
 
 header{
@@ -124,6 +115,7 @@ header{
 .menu.active{
     height: 150px;
 }
+
 
 footer {
     height: 300px;

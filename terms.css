@@ -7,6 +7,7 @@ main{
     background-color: #FFF8E7;
     padding-top: 65px;
     padding-bottom: 20px;
+    padding-left:60px;
 }
 
 header{
@@ -121,11 +122,6 @@ header{
 .menu.active{
     height: 150px;
 }
-
-terms{
-    padding:0px 20px;
-}
-
 
 footer {
     height: 300px;

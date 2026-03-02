@@ -112,6 +112,7 @@ label {
 }
 
 .home{
+  display:flex;
   flex-direction: column;
 }
 
@@ -138,6 +139,7 @@ label {
     left: 275px;
   }
 }
+
 
 
 

@@ -83,7 +83,7 @@ label {
   font-size: 12px;
 }
 
-a{
+.forget .entry{
   font-size: 12px;
 }
 
@@ -138,5 +138,6 @@ a{
     left: 275px;
   }
 }
+
 
 

@@ -93,6 +93,9 @@ p{
   font-size: 12px;
 }
 
+a{
+  font-size:12px;
+}
 
 @media screen and (max-width:480px) {
   
@@ -117,3 +120,4 @@ p{
     left: 275px;
   }
 }
+

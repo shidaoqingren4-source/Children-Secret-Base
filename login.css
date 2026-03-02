@@ -3,9 +3,10 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #FFF8E7;
   display: flex;
+  flex-direction: column; /* ← 追加 */
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* ← height 100vh だと崩れやすいので変更 */
 }
 
 .login-container {
@@ -113,7 +114,7 @@ label {
 
 .home {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -140,6 +141,7 @@ label {
     left: 275px;
   }
 }
+
 
 
 

@@ -3,6 +3,12 @@ body{
     overflow-x: hidden;
 }
 
+main{
+    background-color: #FFF8E7;
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+
 header{
     position:fixed;
     height:65px;

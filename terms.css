@@ -194,4 +194,18 @@ footer {
 terms{
     padding:0px 20px;
 }
+
+.wave-container{
+    height:75px;
+}
     
+footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 50px;
+  }}

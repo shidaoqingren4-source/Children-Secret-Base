@@ -169,6 +169,10 @@ footer {
     width: 100%;
   }
 
+main{
+    padding-left:20px;
+}
+    
 .left img {
     height: 45px;
     width: auto;
@@ -192,10 +196,6 @@ footer {
   .menu{
     top: 55px;
   }
-
-terms{
-    padding:0px 20px;
-}
 
 .wave-container{
     height:75px;

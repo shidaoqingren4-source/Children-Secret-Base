@@ -170,7 +170,7 @@ footer {
   }
 
 main{
-    padding-left:20px;
+     width: calc(100% - 15px);
 }
     
 .left img {

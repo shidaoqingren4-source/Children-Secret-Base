@@ -9,6 +9,10 @@ main{
     padding-bottom: 20px;
 }
 
+section{
+    padding-left:200px;
+}
+
 header{
     position:fixed;
     height:65px;
@@ -168,7 +172,9 @@ footer {
     width: 100%;
   }
 
-
+section{
+    padding-left:20px;
+}
     
 .left img {
     height: 45px;

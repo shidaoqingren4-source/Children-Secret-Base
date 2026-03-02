@@ -163,3 +163,34 @@ footer {
 .wave path{
   fill:#FFF8E7;
 }
+
+@media screen and (max-width: 480px) {
+    
+  header {
+    height: 55px;
+    width: 100%;
+  }
+
+.left img {
+    height: 45px;
+    width: auto;
+    margin-top:5px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+  .right figure {
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  .right button{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .menu{
+    top: 55px;
+  }

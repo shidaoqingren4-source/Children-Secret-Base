@@ -111,4 +111,28 @@ input.input-password-error {
   cursor: pointer;
 }
 
+@media screen and (max-width:480px) {
+  
+  .reset-container{
+    width: calc(100% - 15px);
+    box-sizing: border-box;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .reset-container h1{
+    font-size: 25px;
+  }
+
+  .reset-container p{
+    font-size: 14px;
+  }
+
+  .return{
+    top: 575px;
+    left: 275px;
+  }
+}
+
 

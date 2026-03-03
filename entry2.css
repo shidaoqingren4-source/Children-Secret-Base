@@ -127,7 +127,7 @@ span {
 
 @media screen and (max-width:480px) {
   
-  .signup-container{
+  .next-form-container{
     width: calc(100% - 15px);
     box-sizing: border-box;
     padding: 0 30px;
@@ -135,11 +135,11 @@ span {
     padding-bottom: 40px;
   }
 
-  .signup-container h1{
+  .next-form-container h1{
     font-size: 25px;
   }
 
-  .signup-container p{
+  .next-form-container p{
     font-size: 14px;
   }
 
@@ -148,4 +148,5 @@ span {
     left: 275px;
   }
 }
+
 
